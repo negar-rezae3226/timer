@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start-box active">
+            <input type="text" id="input-counter" placeholder="زمان مورد نظر خود را به ثانیه وارد کنید">
+            <button id="start-counter">شروع</button>
+        </div>
+        <div id="error-message"></div>
+        <div class="c100 p100">
+            <span>250</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+        <div class="message">
+            <span class="loading">در حال اجرا ...</span>
+            <span class="success">شمارنده با موفقیت به پایان رسید</span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
